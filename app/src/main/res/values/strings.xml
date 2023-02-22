@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">My health v0</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_recherche">Recherche</string>
+    <string name="title_medoc">Medicaments</string>
+    <string name="title_donnees">Données</string>
+    <string name="defaut">aa</string>
 </resources>

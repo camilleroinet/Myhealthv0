@@ -3,23 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_accueil">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.myhealthv0.ui.home.HomeFragment"
+        android:id="@+id/navigation_accueil"
+        android:name="com.example.myhealthv0.ui.accueil.AccueilFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_accueil" />
+    <fragment
+        android:id="@+id/navigation_medoc"
+        android:name="com.example.myhealthv0.ui.medoc.MedocFragment"
+        android:label="@string/title_recherche"
+        tools:layout="@layout/fragment_recherche" />
+    <fragment
+        android:id="@+id/navigation_recherche"
+        android:name="com.example.myhealthv0.ui.recherche.RechercheFragment"
+        android:label="@string/title_recherche"
+        tools:layout="@layout/fragment_recherche" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.myhealthv0.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.myhealthv0.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_donnee"
+        android:name="com.example.myhealthv0.ui.donnee.DonneeFragment"
+        android:label="@string/title_donnees"
+        tools:layout="@layout/fragment_donnee" />
 </navigation>
